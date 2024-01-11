@@ -1,11 +1,12 @@
 import React from 'react'
 import { Navbar, Nav } from "react-bootstrap";
+import { Search, BellFill, PersonFill } from 'react-bootstrap-icons';
 
 
 export default function MioNavbar() {
   return (
     <>
-     <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#221f1f"}}>
+     <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark mt-2" style={{ backgroundColor: "#221f1f"}}>
       
       <Navbar.Brand href="#home">
            <img 
@@ -26,8 +27,11 @@ export default function MioNavbar() {
           </Nav>
         </Navbar.Collapse>
 
-        <div>
-
+        <div className='d-flex align-items-center mx-2'>
+          <Search className='text-white fw-bolder fs-4' />
+          <p className='text-uppercase text-white mx-3 mb-0'>kids</p>
+          <BellFill className="text-white fs-4" />
+          <PersonFill className='text-white ms-4 me-4 fs-3' />
         </div>
 
     </Navbar>
