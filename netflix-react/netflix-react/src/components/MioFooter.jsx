@@ -1,17 +1,18 @@
 import React from 'react';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 
 export default function MioFooter() {
   return (
-    <footer>
-          <div className="row text-center mt-5">
-            <div className="col-6 offset-3">
+    <Container>
+          <Row className="text-center mt-5">
+            <Col className="col-6 offset-3">
  
-              <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg 4 lh-1">
-                <div className="col">
-                  <div className="row">
-                    <div className="col col-12 footer-links ">
+              <Row className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg 4 lh-1">
+                <Col>
+                  <Row>
+                    <Col className="col-12 footer-links">
                       <p>
-                        <a href="#" alt="footer link"  className='text-secondary text-decoration-none'>Audio and Subtitles</a>
+                        <a href="#" alt="footer link"  className='a1 text-secondary text-decoration-none'>Audio and Subtitles</a>
                       </p>
                       <p>
                         <a href="#" alt="footer link"  className='text-secondary text-decoration-none'>Media Center</a>
@@ -22,12 +23,12 @@ export default function MioFooter() {
                       <p>
                         <a href="#" alt="footer link"  className='text-secondary text-decoration-none'>Contact us</a>
                       </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="row">
-                    <div className="col col-12 footer-links">
+                    </Col>
+                  </Row>
+                </Col>
+                <Col>
+                  <Row>
+                    <Col className="col-12 footer-links">
                       <p>
                         <a href="#" alt="footer link" className='text-secondary text-decoration-none'>Audio Description</a>
                       </p>
@@ -37,12 +38,12 @@ export default function MioFooter() {
                       <p>
                         <a href="#" alt="footer link" className='text-secondary text-decoration-none'>Legal Notices</a>
                       </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="row">
-                    <div className="col col-12 footer-links">
+                    </Col>
+                  </Row>
+                </Col>
+                <Col>
+                  <Row>
+                    <Col className="col-12 footer-links">
                       <p>
                         <a href="#" alt="footer link" className='text-secondary text-decoration-none'>Help Center</a>
                       </p>
@@ -52,12 +53,12 @@ export default function MioFooter() {
                       <p>
                         <a href="#" alt="footer link" className='text-secondary text-decoration-none'>Cookie Preferences</a>
                       </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="row">
-                    <div className="col col-12 footer-links">
+                    </Col>
+                  </Row>
+                </Col>
+                <Col>
+                  <Row>
+                    <Col className="col-12 footer-links">
                       <p>
                         <a href="#" alt="footer link" className='text-secondary text-decoration-none'>Gift Cards</a>
                       </p>
@@ -65,32 +66,32 @@ export default function MioFooter() {
                         <a href="#" alt="footer link" className='text-secondary text-decoration-none'>Terms of Use</a>
                       </p>
                       <p>
-                        <a href="#" alt="footer link" className='text-secondary text-decoration-none'>Corporate Information</a>
+                        <a href="#" alt="footer link" className='aCorp text-secondary text-decoration-none'>Corporate Information</a>
                       </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className=' d-flex flex-column align-items-start'>
-                <div className="row">
-                  <div className="col col-12 text-left mb-2">
-                    <button
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+              <div className='d-flex flex-column align-items-start'>
+                <Row>
+                  <Col className="col-12 text-left mb-2">
+                    <Button
                       type="button"
                       className="btn btn-sm footer-button rounded-0 mt-3 text-secondary border-secondary"
                     >
                       Service Code
-                    </button>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="copyright col col-12 text-left mb-2 mt-2 copyright text-secondary">
+                    </Button>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col className="copyright col-12 text-left mb-2 mt-2 copyright text-secondary">
                     © 1997-2022 Netflix, Inc.
-                  </div>
-                </div>
+                  </Col>
+                </Row>
               </div>
               
-            </div>
-          </div>
-    </footer>
+            </Col>
+          </Row>
+    </Container>
   )
 }

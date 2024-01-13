@@ -27,7 +27,7 @@ export default function Intro() {
 
     <div>
         <GridFill className='text-white fs-4' />
-        <Grid3x3GapFill className="text-white mx-5 fs-4" />
+        <Grid3x3GapFill className="text-white ms-4 me-3 fs-4" />
     </div>
 
     </div>

@@ -1,8 +1,34 @@
 body{
     background-color: #221f1f !important;
-    padding-left: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .copyright {
     font-size: 0.7rem;
+}
+
+
+.film-image:hover {
+    transform: scale(1.1);
+}
+
+
+.footer-links > p {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: start;
+    margin-right: 0.5rem;
+}
+
+.footer-links .aCorp {
+    text-align: left;
+}
+
+.footer-links .a1 {
+    text-align: left;
+}
+
+.footer-button {
+    background-color: #221f1f !important;
 }
